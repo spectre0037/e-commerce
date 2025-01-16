@@ -80,7 +80,7 @@ li {
     height: 300px;
 }
 
-@media screen and (max-width: 1278px) {
+@media screen and (max-width: 778px) {
     .navbar { height: 20vh; }
     .offcanvas-btn { display: block; }
     .nav-link,.shopping-cart, .drop-down, .sign-up, .sign-in, li, span {
