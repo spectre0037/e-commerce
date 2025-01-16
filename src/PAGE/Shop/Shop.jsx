@@ -10,9 +10,7 @@ const Shop = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_vw4hnrb', 'template_ay9liav', form.current, {
-                publicKey: 's7gzIzJoCQqtshaEx',
-            })
+            .sendForm('service_vw4hnrb', 'template_ay9liav', form.current, 's7gzIzJoCQqtshaEx')
             .then(
                 () => {
                     console.log('SUCCESS!');
@@ -20,7 +18,7 @@ const Shop = () => {
                     form.current.reset();
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    console.error('FAILED...', error.text);
                 }
             );
     };
@@ -33,21 +31,64 @@ const Shop = () => {
                 ref={form}
                 onSubmit={sendEmail}
             >
-                <div className=" form-contorll bg-body-tertiary p-4 rounded-4 d-flex justify-content-center flex-column">
+                <div className="form-control bg-body-tertiary p-4 rounded-4 d-flex justify-content-center flex-column">
                     <h1 className="text text-center">SHOP NOW</h1>
-                    <label>Name</label>
-                    <input type="text" name="from_name" placeholder="Name" />
-                    <label>Item id</label>
-                    <input type="text" name="item_id" placeholder="xxxx" />
-                    <label>Email</label>
-                    <input type="email" name="from_email" placeholder="name@example.com" />
-                    <label>Contact Number</label>
-                    <input type="contact" name="from_contact" />
-                    <label>Delivery Address</label>
-                    <input name="Delivery_address" />
-                    <label>Transaction Id</label>
-                    <input name="Transaction_id" />
-                    <input className="button" type="submit" value="Send" />
+
+                    <label htmlFor="from_name">Name</label>
+                    <input
+                        type="text"
+                        id="from_name"
+                        name="from_name"
+                        placeholder="Your Name"
+                        required
+                    />
+
+                    <label htmlFor="item_id">Item ID</label>
+                    <input
+                        type="text"
+                        id="item_id"
+                        name="item_id"
+                        placeholder="xxxx"
+                        required
+                    />
+
+                    <label htmlFor="from_email">Email</label>
+                    <input
+                        type="email"
+                        id="from_email"
+                        name="from_email"
+                        placeholder="name@example.com"
+                        required
+                    />
+
+                    <label htmlFor="from_contact">Contact Number</label>
+                    <input
+                        type="tel"
+                        id="from_contact"
+                        name="from_contact"
+                        placeholder="Your contact number"
+                        required
+                    />
+
+                    <label htmlFor="Delivery_address">Delivery Address</label>
+                    <input
+                        type="text"
+                        id="Delivery_address"
+                        name="Delivery_address"
+                        placeholder="Your delivery address"
+                        required
+                    />
+
+                    <label htmlFor="Transaction_id">Transaction ID</label>
+                    <input
+                        type="text"
+                        id="Transaction_id"
+                        name="Transaction_id"
+                        placeholder="Your transaction ID"
+                        required
+                    />
+
+                    <input className="button mt-3" type="submit" value="Send" />
                 </div>
             </form>
         </div>
