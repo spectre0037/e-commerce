@@ -10,9 +10,7 @@ const ContactUs = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_vw4hnrb', 'template_f8jop2m', form.current, {
-                publicKey: 's7gzIzJoCQqtshaEx',
-            })
+            .sendForm('service_vw4hnrb', 'template_f8jop2m', form.current, 's7gzIzJoCQqtshaEx')
             .then(
                 () => {
                     console.log('SUCCESS!');
@@ -20,7 +18,7 @@ const ContactUs = () => {
                     form.current.reset();
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    console.error('FAILED...', error.text);
                 }
             );
     };
@@ -35,15 +33,43 @@ const ContactUs = () => {
             >
                 <div className="w-50 bg-body-tertiary p-4 rounded-4 border d-flex justify-content-center flex-column">
                     <h1 className="text text-center">CONTACT US</h1>
-                    <label>Name</label>
-                    <input type="text" name="from_name" placeholder="name" />
-                    <label>Email</label>
-                    <input type="email" name="from_email" placeholder="name@example.com" />
-                    <label>Contact Number</label>
-                    <input type="contact" name="from_contact" />
-                    <label>Message</label>
-                    <textarea name="message" />
-                    <input className="button" type="submit" value="Send" />
+
+                    <label htmlFor="from_name">Name</label>
+                    <input
+                        type="text"
+                        id="from_name"
+                        name="from_name"
+                        placeholder="Your name"
+                        required
+                    />
+
+                    <label htmlFor="from_email">Email</label>
+                    <input
+                        type="email"
+                        id="from_email"
+                        name="from_email"
+                        placeholder="name@example.com"
+                        required
+                    />
+
+                    <label htmlFor="from_contact">Contact Number</label>
+                    <input
+                        type="tel"
+                        id="from_contact"
+                        name="from_contact"
+                        placeholder="Your contact number"
+                        required
+                    />
+
+                    <label htmlFor="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your message"
+                        required
+                    ></textarea>
+
+                    <input className="button mt-3" type="submit" value="Send" />
                 </div>
             </form>
         </div>
