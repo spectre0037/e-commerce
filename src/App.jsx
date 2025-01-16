@@ -13,7 +13,7 @@ import Shop from './PAGE/Shop/Shop';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/e-commerce">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about-us" element={<AboutUs />} />
