@@ -4,13 +4,11 @@ import NAVBAR from '../../Components/Navbar/Navbar'
 import lifestyleforeveryone from '../../assets/lifestyleforeveryone.jpeg'
 import ourprofoundstoryimage from '../../assets/ourprofundstoryimage.jpeg'
 import FOOTER from '../../Components/Footer/Footer'
-import img1 from '../../assets/AZ-4.webp'
 const AboutUs = () => {
     return (
         <>
             <NAVBAR />
             <div className="About-us-image-1">
-                <img src={img1} alt="" className='img-fluid' />
             </div>
             <h1 className='text-center text position-absolute w-100'>AZ- CURTAINS</h1>
             <div className="life-style-for-everyone-section container-fluid d-flex  justify-content-center align-items-center">
