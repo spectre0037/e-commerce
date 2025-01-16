@@ -7,14 +7,14 @@ const Footer = () => {
             <div className="container-fluid footer-block mt-5">
                 <div className="row d-flex justify-content-around align-content-center align-items-center">
                     <div className="col-xl-4 ">
-                        <div className='text text-center'>CONTACT US</h3>
-                        <p className='contact-us-text ps-3 mt-3'>
+                        <h3 className='text text-center'>CONTACT US</h3>
+                        <div className='contact-us-text ps-3 mt-3'>
                             <h3>AZ UTAMA RESOURCES</h3>
                             <p>20A JALAN MEDAN 9 TAMAN MEDAN BARU 46000</p>
                             <p>PETALING JAYA SELANGOR</p>
                             <p>email : azutamaresources@gmail.com</p>
                             <p>contact : 017-2760912</p>
-                        </p>
+                        </div>
                     </div>
                     <div className="col-xl-2 ">
                         <h3 className='text text-center'>INFORMATION</h3>
