@@ -1,0 +1,115 @@
+.categories {
+    width: 100%;
+    position: absolute;
+    top: 125vh;
+    color: #b2252d;
+    text-align: center;
+}
+
+.category-line,
+.our-products-line {
+    width: 39%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.527);
+}
+
+.our-products {
+    width: 100%;
+    position: absolute;
+    top: 205vh;
+    color: #b2252d;
+    text-align: center;
+}
+
+.others {
+    display: none;
+
+}
+
+.carousel-2 {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 750vh;
+}
+
+.carousel-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding-left: 140px;
+    padding-top: 40px;
+}
+
+.carousel-content h1 {
+    font-size: 2.5rem;
+    color: #b2252d;
+    letter-spacing: 4px;
+}
+
+.carousel-image {
+    width: 50%;
+    height: 50%;
+    left: 50%;
+
+}
+
+.facebook-logo img,
+.insta-logo img,
+.tiktok-logo img {
+    margin-right: 20px;
+}
+
+.about-us {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 815vh;
+    text-align: center;
+    background-image: url('../../assets/about-us.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.landing-page-footer {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 885vh;
+    color: #b2252d;
+    text-align: center;
+}
+
+@media screen and (max-width:776px) {
+    .categories {
+        width: 100%;
+        position: absolute;
+        top: 950px;
+        color: #b2252d;
+        text-align: center;
+    }
+    .our-products {
+        width: 100%;
+        position: absolute;
+        top: 2500px;
+        color: #b2252d;
+        text-align: center;
+    }
+    .category-line,
+    .our-products-line {
+        width: 39%;
+        height: 1px;
+        background-color: rgba(128, 128, 128, 0.527);
+    }
+    .others {
+        display: none;
+    }
+    .carousel-2 {
+        display: none;
+    }
+    .landing-page-footer,.d{
+        top: 5500px;
+    }
+}

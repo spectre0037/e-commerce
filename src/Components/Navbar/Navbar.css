@@ -1,0 +1,89 @@
+.navbar, .offcanvas-header {
+    height: 30vh;
+    width: 100%;
+    background-color: #b2252d;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+li {
+    color: white;
+    font-size: 12px;
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.drop-down, .drop-downs, .sign-in {
+    font-size: 12px;
+    background-color: #b2252d;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.drop-down:hover {
+    background-color: white;
+    color: #b2252d;
+}
+.nav-links{
+    background-color: white;
+    color: #b2252d;
+}
+
+.drop-down-menu, .sub-dropdown {
+    font-size: 12px;
+    color: #b2252d;
+}
+
+.sign-up {
+    font-size: 12px;
+    background-color: white;
+    color: #b2252d;
+    border: none;
+    padding: 5px 15px;
+}
+
+.offcanvas-btn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.line, .line2, .line3 {
+    height: 2.5px;
+    background-color: white;
+}
+
+.line { width: 12.5px; }
+.line2 { width: 17.5px; }
+.line3 { width: 7.5px; }
+
+.logo-img {
+    align-self: center;
+}
+
+.offcanvas-Menu, .offcanvas-Categories {
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.offcanvas-menu-content {
+    margin: 0;
+    height: 300px;
+}
+
+@media screen and (max-width: 1278px) {
+    .navbar { height: 20vh; }
+    .offcanvas-btn { display: block; }
+    .nav-link,.shopping-cart, .drop-down, .sign-up, .sign-in, li, span {
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+.form {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    top: 100px;
+}
+
+.form-contorll{
+    width: 40%;
+    height: 70%;
+    border: 1px solid red;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button {
+    width: 100px;
+    margin-top: 25px;
+    background-color: #b2252d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+@media screen and (max-width: 768px) {
+    .form {
+        position: absolute;
+        width: 100%;
+        height: 800px;
+        top: 30px;
+    }
+    .form-contorll{
+        width: 90%;
+    }
+    
+}

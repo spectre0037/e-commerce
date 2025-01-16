@@ -1,0 +1,155 @@
+.curtains {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 1500px;
+    background-image: url('../../assets/CURTAINS-Ori-compressed.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.curtains-content,
+.wallpapers-content,
+.Bedding-content {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.Blinds-content,
+.Accessories-content {
+    width: 40%;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+}
+
+.odd-heading {
+    text-align: end;
+    font-size: 50px;
+}
+
+.odd-para {
+    font-size: 16px;
+    text-align: end;
+}
+
+.even-para {
+    font-size: 16px;
+}
+
+.Blinds {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 320vh;
+    background-image: url('../../assets/BLINDS-Ori.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpapers {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 420vh;
+    background-image: url('../../assets/WALLPAPERS-Ori-compressed.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Accessories {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 520vh;
+    background-image: url('../../assets/ACCESSORIES-Ori-compressed.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Bedding {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 620vh;
+    background-image: url('../../assets/BEDDING-Ori-compressed.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:776px) {
+    .curtains {
+        top: 2700px;
+        text-align: center;
+    }
+
+    .curtains-content,
+    .wallpapers-content,
+    .Bedding-content {
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 5%;
+    }
+
+    .odd-heading {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .odd-para {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .Blinds {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        top: 3100px;
+    }
+
+    .Blinds-content,
+    .Accessories-content {
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        top: 20%;
+        text-align: center;
+    }
+    .odd-heading {
+        text-align: center;
+        font-size: 50px;
+    }
+    .wallpapers {
+        top: 3600px;
+    
+    }
+    
+    .Accessories {
+        top: 4000px;
+    
+    }
+    
+    .Bedding {
+        top: 4700px;
+    
+    }
+}

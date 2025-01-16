@@ -1,0 +1,130 @@
+.About-us-image-1 {
+    width: 100%;
+    height: 50%;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.About-us-image-2 {
+    position: relative;
+    top: 135px;
+}
+
+.About-us-image-3 {
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: 2200px;
+    background-image: url('../../assets/our_mission.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.About-us-image-4 {
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: 3170px;
+    background-image: url('../../assets/aboutusimage5.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-us-footer {
+    position: absolute;
+    top: 1600px;
+}
+
+.life-style-for-everyone-section {
+    width: 100%;
+    top: 800px;
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.life-style-for-everyone-image {
+    height: 40vh;
+}
+
+.our-profound-story {
+    padding-left: 40px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 1200px;
+}
+
+.our-profound-story-image {
+    height: 30vh;
+}
+
+@media screen and (max-width:1278px) {
+    .About-us-image-1 {
+        top: 130px;
+    }
+    
+    .About-us-image-2 {
+        top: 130px;
+    }
+    .life-style-for-everyone-section {
+        width: 100%;
+        top: 530px;
+        text-align: center;
+    }
+    .life-style-for-everyone-image {
+        height: 200px;
+    }
+    .our-profound-story {
+        padding-left: 0px;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 1130px;
+        text-align: center;
+    }
+    .About-us-image-3 {
+        width: 100%;
+        height: 150%;
+        position: absolute;
+        top: 1600px;
+        background-image: url('../../assets/our_mission.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .our-profound-story-image {
+        height: 30vh;
+    }
+    
+    .About-us-image-4 {
+        width: 100%;
+        height: 150%;
+        position: absolute;
+        top: 1860px;
+        background-image: url('../../assets/aboutusimage5.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .about-us-footer {
+        position: absolute;
+        top: 1900px;
+    }
+    
+    
+    
+    
+    
+    
+}

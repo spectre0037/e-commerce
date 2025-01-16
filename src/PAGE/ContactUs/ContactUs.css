@@ -1,0 +1,32 @@
+.form {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 70vh;
+}
+
+.form-control {
+    width: 50%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button {
+    width: 100px;
+    margin-top: 25px;
+    background-color: #b2252d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}

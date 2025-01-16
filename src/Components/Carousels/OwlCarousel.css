@@ -1,0 +1,69 @@
+.owl-carousels {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    top: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousels .row {
+    height: 90%;
+}
+
+.carousel-image-1 {
+    background-image: url('../../assets/wallpapers.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+}
+
+.carousel-image-2 {
+    background-image: url('../../assets/blinds.jpeg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+}
+
+.carousel-image-3 {
+    background-image: url('../../assets/curtains.jpeg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+}
+
+.carousel-image-4 {
+    background-image: url('../../assets/bedding.jpeg');
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+}
+
+.carousel-image-5 {
+    background-image: url('../../assets/Accessories.jpeg');
+    background-size: cover;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+    border-radius: 5px;
+}
+
+@media screen and (max-width:776px) {
+    .owl-carousels {
+        top: 550px;
+        height: 350vh;
+    }
+
+    .owl-carousels .row {
+        width: 50%;
+        height: 60%;
+    }
+    .carousel-image-1,.carousel-image-2,.carousel-image-3,.carousel-image-4,.carousel-image-5 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom:20px;
+    }
+
+}

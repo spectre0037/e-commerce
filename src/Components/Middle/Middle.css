@@ -1,0 +1,24 @@
+.sub-images {
+    width: 40%;
+    height: 40%;
+}
+
+.middle-section-container {
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+}
+
+.text {
+    color: #b2252d;
+}
+@media screen and (max-width: 776px) {
+    .middle-section-container {
+        top: 600px;
+    }
+    .sub-images {
+        width: 30%;
+        height: 30%;
+    }
+    
+}
