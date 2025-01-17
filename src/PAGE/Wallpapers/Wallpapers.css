@@ -151,42 +151,78 @@
     
 }
 
+
+/* changed */
 @media screen and (max-width: 540px) {
     .wallpaper-main-image{
         top: 17%;
         height: 100px;
     }
 
-    .custom-made-curtains-text {
-        top: 250px;
+    .wallpaper .custom-made-curtains-text {
+        top: 240px;
     }
 
-    .dim-out-curtains-text {
+    .wallpaper .dim-out-curtains-text {
         top: 320px;
     }
 
-    .dim-out-curtain-cards {
-        top: 550px;
+    .wallpaper .dim-out-curtain-cards {
+        top: 750px;
     }
 
-    .dimout-image-1,
-    .dimout-image-2 {
+    .wallpaper .dimout-image-1,
+    .wallpaper .dimout-image-2 {
         width: 50%;
     }
 
-    .black-out-curtains-text {
-        top: 1200px;
+    .wallpaper .black-out-curtains-text {
+        top: 1550px;
     }
 
-    .black-out-curtain-cards {
-        top: 1600px;
+    .wallpaper .black-out-curtain-cards {
+        top: 1750px;
     }
 
-    .sheer-curtains-text {
+    .wallpaper .sheer-curtains-text {
         top: 3000px;
     }
-
-    .sheer-curtain-cards {
-        top: 3500px;
+    .wallpaper .row-2{
+        top: 3000px;
+    }
+    .wallpaper .row-3{
+        top: 4000px;
+    }
+    .wallpaper .row-4{
+        top: 5000px;
+    }
+    .wallpaper .row-5{
+        top: 6000px;
+    }
+    .wallpaper .STELLA-2-curtains-text{
+        top: 6800px;
+    }
+    .wallpaper .STELLA-2-curtains-text h1{
+        width: 100%;
+    }
+    .wallpaper .STELLA-2-curtain-cards{
+        top: 7000px;
+    }
+    .wallpaper .one{
+        top: 8300px;
+    }
+    .wallpaper .two{
+        top: 9300px;
+    }
+    .wallpaper .three{
+        top: 10300px;
+    }
+    .wallpaper .four{
+        top: 11300px;
+    }
+    .wallpaper-footer{
+        position: absolute;
+        height: 100vh;
+        top: 12100px;
     }
 }
