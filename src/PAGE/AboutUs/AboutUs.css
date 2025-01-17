@@ -7,6 +7,7 @@
     position: relative;
 
 }
+
 .About-us-image-2 {
     position: relative;
     top: 135px;
@@ -70,18 +71,21 @@
     .About-us-image-1 {
         top: 130px;
     }
-    
+
     .About-us-image-2 {
         top: 130px;
     }
+
     .life-style-for-everyone-section {
         width: 100%;
         top: 530px;
         text-align: center;
     }
+
     .life-style-for-everyone-image {
         height: 200px;
     }
+
     .our-profound-story {
         padding-left: 0px;
         height: 400px;
@@ -91,6 +95,7 @@
         top: 1130px;
         text-align: center;
     }
+
     .About-us-image-3 {
         width: 100%;
         height: 150%;
@@ -101,11 +106,11 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .our-profound-story-image {
         height: 30vh;
     }
-    
+
     .About-us-image-4 {
         width: 100%;
         height: 150%;
@@ -116,15 +121,80 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .about-us-footer {
         position: absolute;
         top: 1900px;
     }
-    
-    
-    
-    
-    
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Changed */
+@media screen and (max-width:578px) {
+    .About-us-image-1 {
+        top: 130px;
+    }
+
+    .About-us-image-2 {
+        top: 100px;
+    }
+
+    .life-style-for-everyone-section {
+        width: 100%;
+        top: 300px;
+    }
+
+    .life-style-for-everyone-section h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .life-style-for-everyone-image {
+        display: none;
+    }
+
+    .our-profound-story {
+        top: 730px;
+        text-align: center;
+    }
+
+    .our-profound-story h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .About-us-image-3 {
+        display: none;
+    }
+
+    .our-profound-story-image {
+        display: none;
+    }
+
+    .About-us-image-4 {
+        width: 100%;
+        height: 150%;
+        position: absolute;
+        top: 1860px;
+        background-image: url('../../assets/aboutusimage5.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .about-us-footer {
+        position: absolute;
+        top: 1400px;
+    }
+}
+
+/* Changed */
