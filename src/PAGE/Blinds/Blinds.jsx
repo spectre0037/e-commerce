@@ -15,7 +15,7 @@ import blackout9 from '../../assets/blackout-8.jpg'
 import Footer from '../../Components/Footer/Footer'
 const Blinds = () => {
     return (
-        <div>
+        <div  className='Blind w-100'>
             <div className='p-0 m-0'>
                 <Navbar />
                 <div className='Blinds-main-image p-0 m-0'>
