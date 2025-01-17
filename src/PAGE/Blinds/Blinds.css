@@ -140,6 +140,10 @@
 }
 
 @media screen and (max-width: 540px) {
+    .Blind h1{
+        width: 100%;
+        text-align: center;
+    }
     .Blind .dim-out-curtain-cards{
         width: 100%;
         height: 1100px;
