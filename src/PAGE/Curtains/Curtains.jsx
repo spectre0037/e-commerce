@@ -18,7 +18,7 @@ import sheer3 from '../../assets/h22.jpg'
 import Footer from '../../Components/Footer/Footer'
 const Curtains = () => {
     return (
-        <div className='p-0 m-0'>
+        <div className='p-0 m-0 curtains-page'>
             <Navbar />
             <div className='cutom-mades-curtain-image p-0 m-0'>
             </div>
@@ -53,7 +53,7 @@ const Curtains = () => {
                 </div>
                 <div className="black-out-curtains-line"></div>
             </div>
-            <div className="row black-out-curtain-cards ">
+            <div className="row rowed black-out-curtain-cards ">
                 <div className="row m-0 p-0 black-out-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                     <div className="col-md-3 card p-4 align-content-center align-items-center">
                         <img src={blackout1} alt="" className='dimout-image-1' />
@@ -117,7 +117,7 @@ const Curtains = () => {
                 </div>
                 <div className="sheer-curtains-line"></div>
             </div>
-            <div className="row sheer-curtain-cards d-flex justify-content-around align-content-center align-items-center">
+            <div className="row rowed sheer-curtain-cards d-flex justify-content-around align-content-center align-items-center">
                 <div className="col-md-3 card p-4 align-content-center align-items-center">
                     <img src={sheer1} alt="" className='dimout-image-1' />
                     <h4 className='text-center text-secondary'>M Betty French Pleat Custom Made Curtains</h4>
