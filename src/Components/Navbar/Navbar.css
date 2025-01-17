@@ -1,12 +1,15 @@
-.navbar, .offcanvas-header {
+.navbar,
+.offcanvas-header {
     height: 30vh;
     width: 100%;
     background-color: #b2252d;
 }
-.nav-link{
+
+.nav-link {
     color: white;
     text-decoration: none;
 }
+
 li {
     color: white;
     font-size: 12px;
@@ -16,7 +19,9 @@ li {
     cursor: pointer;
 }
 
-.drop-down, .drop-downs, .sign-in {
+.drop-down,
+.drop-downs,
+.sign-in {
     font-size: 12px;
     background-color: #b2252d;
     color: white;
@@ -28,12 +33,14 @@ li {
     background-color: white;
     color: #b2252d;
 }
-.nav-links{
+
+.nav-links {
     background-color: white;
     color: #b2252d;
 }
 
-.drop-down-menu, .sub-dropdown {
+.drop-down-menu,
+.sub-dropdown {
     font-size: 12px;
     color: #b2252d;
 }
@@ -53,20 +60,31 @@ li {
     padding-top: 20px;
 }
 
-.line, .line2, .line3 {
+.line,
+.line2,
+.line3 {
     height: 2.5px;
     background-color: white;
 }
 
-.line { width: 12.5px; }
-.line2 { width: 17.5px; }
-.line3 { width: 7.5px; }
+.line {
+    width: 12.5px;
+}
+
+.line2 {
+    width: 17.5px;
+}
+
+.line3 {
+    width: 7.5px;
+}
 
 .logo-img {
     align-self: center;
 }
 
-.offcanvas-Menu, .offcanvas-Categories {
+.offcanvas-Menu,
+.offcanvas-Categories {
     margin: 0;
     height: 50px;
     display: flex;
@@ -80,10 +98,29 @@ li {
     height: 300px;
 }
 
-@media screen and (max-width: 778px) {
-    .navbar { height: 20vh; }
-    .offcanvas-btn { display: block; }
-    .nav-link,.shopping-cart, .drop-down, .sign-up, .sign-in, li, span {
+@media screen and (max-width: 1278px) {
+    .navbar {
+        height: 20vh;
+    }
+
+    .offcanvas-btn {
+        display: block;
+    }
+
+    .nav-link,
+    .shopping-cart,
+    .drop-down,
+    .sign-up,
+    .sign-in,
+    li,
+    span {
         display: none;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .offcanvas-Categories-content .offcanvas-text {
+        width: 80%;
+        text-align: start;
     }
 }
