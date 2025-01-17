@@ -34,7 +34,10 @@ const Navbar = () => {
                     <img className='me-5' src={Logo} alt="logo" height={140} />
                 </div>
                 <div>
-                    <img src={cart} alt="cart" height={35} />
+                    <Link to='/shop'>
+                        <img src={cart} alt="cart" height={35} />
+                    </Link>
+
                 </div>
             </div>
             <div className="container nav-bar-links">
@@ -93,7 +96,7 @@ const Navbar = () => {
                     ) : (
                         <div className="offcanvas-Categories-content m-0 d-flex flex-column">
                             {dropdownItems.map(({ label, link }) => (
-                                <Link key={label} to={link} className="text-decoration-none mt-3 ms-2 fs-5 text">
+                                <Link key={label} to={link} className="offcanvas-text text-decoration-none mt-3 ms-2 fs-5 text">
                                     {label}
                                 </Link>
                             ))}
