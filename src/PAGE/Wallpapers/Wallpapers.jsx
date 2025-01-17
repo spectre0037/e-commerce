@@ -15,7 +15,7 @@ import blackout9 from '../../assets/blackout-8.jpg'
 import Footer from '../../Components/Footer/Footer'
 const Wallpapers = () => {
     return (
-        <div>
+        <div className='wallpaper'>
             <div className='p-0 m-0'>
                 <Navbar />
                 <div className='wallpaper-main-image p-0 m-0'>
@@ -187,7 +187,7 @@ const Wallpapers = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" STELLA-2-curtain-cards row-2 ">
+                <div className="STELLA-2-curtain-cards one ">
                     <div className="row m-0 p-0 STELLA-2-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                         <div className="col-md-3 card p-4 align-content-center align-items-center">
                             <img src={blackout4} alt="" className='dimout-image-1' />
@@ -206,7 +206,7 @@ const Wallpapers = () => {
                         </div>
                     </div>
                 </div>
-                <div className="STELLA-2-curtain-cards row-3 ">
+                <div className="STELLA-2-curtain-cards two ">
                     <div className="row m-0 p-0 STELLA-2-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                         <div className="col-md-3 card p-4 align-content-center align-items-center">
                             <img src={blackout7} alt="" className='dimout-image-1' />
@@ -225,7 +225,7 @@ const Wallpapers = () => {
                         </div>
                     </div>
                 </div>
-                <div className="STELLA-2-curtain-cards row-4 ">
+                <div className="STELLA-2-curtain-cards three ">
                     <div className="row m-0 p-0 STELLA-2-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                         <div className="col-md-3 card p-4 align-content-center align-items-center">
                             <img src={blackout7} alt="" className='dimout-image-1' />
@@ -244,7 +244,7 @@ const Wallpapers = () => {
                         </div>
                     </div>
                 </div>
-                <div className="STELLA-2-curtain-cards row-5 ">
+                <div className="STELLA-2-curtain-cards four ">
                     <div className="row m-0 p-0 STELLA-2-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                         <div className="col-md-3 card p-4 align-content-center align-items-center">
                             <img src={blackout7} alt="" className='dimout-image-1' />
@@ -263,6 +263,9 @@ const Wallpapers = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='wallpaper-footer'>
+                <Footer />
             </div>
         </div>
     )
