@@ -67,3 +67,23 @@
     }
 
 }
+@media screen and (max-width:476px) {
+    .owl-carousels {
+        position: absolute;
+        top: 0px;
+        height: 300vh;
+    }
+
+    .owl-carousels .row {
+        width: 90%;
+        height: 100vh;
+    }
+    .carousel-image-1,.carousel-image-2,.carousel-image-3,.carousel-image-4,.carousel-image-5 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom:20px;
+        width: 300px;
+    }
+
+}
