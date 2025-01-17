@@ -101,7 +101,7 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <Link to="/contact-us" className="text-decoration-none mt-3 ms-2 fs-5 text">CONTACT US</Link>
-                            <Link to="/home" className="text-decoration-none mt-3 ms-2 fs-5 text">HOME</Link>
+                            <Link to="/" className="text-decoration-none mt-3 ms-2 fs-5 text">HOME</Link>
                             <Link to="/about-us" className="text-decoration-none mt-3 ms-2 fs-5 text">ABOUT US</Link>
                         </div>
                     )}
