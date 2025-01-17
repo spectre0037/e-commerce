@@ -161,43 +161,54 @@
     
 }
 
+
+
 @media screen and (max-width: 540px) {
-    .main-curtain-image {
+    .Accessorie .main-curtain-image {
         top: 17%;
         height: 100px;
     }
 
-    .custom-made-curtains-text {
-        top: 250px;
+    .Beddings .custom-made-curtains-text {
+        top: 230px;
     }
 
-    .dim-out-curtains-text {
+    .Accessorie .dim-out-curtains-text {
         top: 320px;
     }
 
-    .dim-out-curtain-cards {
-        top: 550px;
+    .Accessorie .dim-out-curtain-cards {
+        top: 700px;
     }
 
-    .dimout-image-1,
-    .dimout-image-2 {
+    .Accessorie .dimout-image-1,
+    .Accessorie .dimout-image-2 {
         width: 50%;
     }
 
-    .black-out-curtains-text {
-        top: 1200px;
+    .Accessorie .black-out-curtains-text {
+        top: 1500px;
     }
 
-    .black-out-curtain-cards {
-        top: 1600px;
+    .Accessorie .black-out-curtain-cards {
+        top: 1900px;
     }
-
-    .sheer-curtains-text {
+    .Accessorie .row-1{
+        top: 1950px;
+    }
+    .Beddings .row-2{
         top: 3000px;
     }
 
-    .sheer-curtain-cards {
+    .Accessorie .sheer-curtains-text {
+        top: 3000px;
+    }
+
+    .Accessorie .sheer-curtain-cards {
         top: 3500px;
+    }
+    .Accessorie .footer{
+        top: 3800px;
     }
     
 }
