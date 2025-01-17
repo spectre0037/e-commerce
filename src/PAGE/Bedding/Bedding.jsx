@@ -16,7 +16,7 @@ import blackout9 from '../../assets/blackout-8.jpg'
 import Footer from '../../Components/Footer/Footer'
 const Bedding = () => {
     return (
-        <div>
+        <div className='Beddings'>
             <div className='p-0 m-0'>
                 <Navbar />
                 <div className='main-curtain-image p-0 m-0'>
@@ -57,7 +57,7 @@ const Bedding = () => {
                     </div>
                     <div className="black-out-curtains-line"></div>
                 </div>
-                <div className="row black-out-curtain-cards ">
+                <div className="row-1 black-out-curtain-cards ">
                     <div className="row m-0 p-0 black-out-cards-row-1 d-flex justify-content-around align-content-center align-items-center">
                         <div className="col-md-3 card p-4 align-content-center align-items-center">
                             <img src={blackout1} alt="" className='dimout-image-1' />
