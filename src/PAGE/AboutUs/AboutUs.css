@@ -1,17 +1,6 @@
-.About-us-image-1 {
-    width: 100%;
-    height: 50%;
-    top: 200px;
-    display: flex;
-    justify-content: center;
-    position: relative;
 
-}
 
-.About-us-image-2 {
-    position: relative;
-    top: 135px;
-}
+
 
 .About-us-image-3 {
     width: 100%;
@@ -37,14 +26,15 @@
 
 .about-us-footer {
     position: absolute;
-    top: 1600px;
+    top: 800px;
 }
 
 .life-style-for-everyone-section {
     width: 100%;
-    top: 800px;
+    top: 180px;
     position: relative;
     height: 400px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -60,7 +50,8 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 1200px;
+    top: 440px;
+    text-align: center;
 }
 
 .our-profound-story-image {
@@ -150,7 +141,7 @@
 
     .life-style-for-everyone-section {
         width: 100%;
-        top: 300px;
+        top: 150px;
     }
 
     .life-style-for-everyone-section h1 {
@@ -163,7 +154,7 @@
     }
 
     .our-profound-story {
-        top: 730px;
+        top: 600px;
         text-align: center;
     }
 
@@ -193,7 +184,7 @@
 
     .about-us-footer {
         position: absolute;
-        top: 1400px;
+        top: 1000px;
     }
 }
 
