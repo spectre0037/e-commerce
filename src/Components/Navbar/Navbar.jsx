@@ -89,6 +89,7 @@ const Navbar = () => {
                     </div>
                     {activeContent === 'MENU' ? (
                         <div className="offcanvas-menu-content m-0 d-flex flex-column justify-content-center">
+                            <Link to="/our-services" className="text-decoration-none m-3 fs-5 text">OUR SERVICES</Link>
                             <Link to="/shop" className="text-decoration-none m-3 fs-5 text">SHOP NOW</Link>
                             <Link to="/about-us" className="text-decoration-none m-3 fs-5 text">ABOUT US</Link>
                             <Link to="/contact-us" className="text-decoration-none m-3 fs-5 text">CONTACT US</Link>
