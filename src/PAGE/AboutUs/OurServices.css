@@ -1,0 +1,108 @@
+.our-services-section-1{
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our-services-section-1 p{
+    width: 70%;
+}
+.our-services-pictures{
+    height: 2000px;
+    position: absolute;
+    top: 800px;
+}
+.our-services-pictures .card{
+    height: 300px;
+    background-color: aqua;
+    margin-top: 50px;
+}
+.our-services-pictures .card:hover{
+    border: 10px solid #fff;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.card-1{
+    background-image: url('../../assets/h19.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-2{
+    background-image: url('../../assets/h20.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-3{
+    background-image: url('../../assets/h21.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-4{
+    background-image: url('../../assets/h22.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-5{
+    background-image: url('../../assets/h23.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-6{
+    background-image: url('../../assets/h24.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-7{
+    background-image: url('../../assets/h25.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-8{
+    background-image: url('../../assets/h26.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-9{
+    background-image: url('../../assets/h27.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-10{
+    background-image: url('../../assets/h28.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-11{
+    background-image: url('../../assets/h29.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-services-footer{
+    position: absolute;
+    top: 2400px;
+}
+@media screen and (max-width: 768px){
+    .our-services-section-1{
+        top: 200px;
+    }
+    .our-services-pictures{
+        top: 1200px;
+    }
+    .our-services-footer{
+        top: 5200px;
+    }
+}
