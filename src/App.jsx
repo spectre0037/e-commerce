@@ -10,10 +10,12 @@ import Bedding from './PAGE/Bedding/Bedding';
 import ContactUs from './PAGE/ContactUs/ContactUs';
 import Accessories from './PAGE/Accessories/Accessories';
 import Shop from './PAGE/Shop/Shop';
+import OurServices from './PAGE/AboutUs/OurServices';
+
 
 const App = () => {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about-us" element={<AboutUs />} />
@@ -25,6 +27,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/our-services" element={<OurServices />} />
       </Routes>
     </BrowserRouter>
   );
