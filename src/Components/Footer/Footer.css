@@ -2,13 +2,14 @@
     height: 90%;
     width: 100%;
 }
-@media screen and (max-width: 768px){
-    .contact-us-text{
-        text-align: center;
-    }
-    .footer-block{
-    height: 90%;
+.footer-block h3{
+    text-align: start !important;
+    width: 100% !important;
+}
+.footer-block p{
+    font-size: 25px;
     width: 100%;
+    margin-top: 20px;
 }
 @media screen and (max-width: 768px){
     .contact-us-text{
@@ -22,7 +23,13 @@
         font-size: 40px;
         width: 100%;
         margin-top: 20px;
-        text-align: center;
+        text-align: center !important;
+    }
+    .footer-block p{
+        font-size: 20px;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center !important;
     }
     .footer-logo{
         width: 100%;
@@ -31,4 +38,3 @@
     
 }
 /* Changed */
-}
