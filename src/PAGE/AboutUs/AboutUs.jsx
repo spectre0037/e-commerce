@@ -4,37 +4,32 @@ import NAVBAR from '../../Components/Navbar/Navbar'
 import lifestyleforeveryone from '../../assets/lifestyleforeveryone.jpeg'
 import ourprofoundstoryimage from '../../assets/ourprofundstoryimage.jpeg'
 import FOOTER from '../../Components/Footer/Footer'
+import img1 from '../../assets/AZ-4.webp'
 const AboutUs = () => {
     return (
         <>
             <NAVBAR />
             <div className="About-us-image-1">
             </div>
-            <h1 className='text-center text position-absolute w-100'>AZ- CURTAINS</h1>
             <div className="life-style-for-everyone-section container-fluid d-flex  justify-content-center align-items-center">
                 <div className="row container-fluid w-100 h-100 d-flex justify-content-around m-0 p-0">
-                    <div className="col-lg-4 d-flex justify-content-center align-items-center m-0">
-                        <img src={lifestyleforeveryone} alt="" className='m-0 life-style-for-everyone-image' />
-                    </div>
-                    <div className="col-lg-6 align-content-center m-0">
-                        <h1 className='text fw-light'>“Lifestyle For Everyone”</h1>
-                        <p className='mt-3'>Datuk Wira Dato’ (Dr.) Calvin Khiu, the Founder & Chairman of MK Curtain Berhad has made MK Curtain to be the leading number 1 in Malaysia’s curtain industry with more than 60 outlets throughout the nation. MK Curtain creates a quality and contemporary lifestyle for everyone by providing one-stop service, selling and customizing curtains, blinds, wallpapers, cushions, carpets and other home accessories.</p>
+                    <div className="col-lg-12 align-content-center m-0">
+                        <h1 className='text fw-bold'>ABOUT US</h1>
+                        <p className='mt-3'>
+                            At AZ Curtains, we've been crafting beautiful window treatments since 2003. Our mission is to provide the highest quality curtains, blinds, and shades to transform your home. We believe that quality is not just a detail, it's the foundation of a truly exceptional product. This commitment to excellence sets us apart, ensuring your windows are adorned with stunning and long-lasting pieces. We offer a wide selection of styles and fabrics to suit any taste and budget, all crafted with meticulous attention to detail. Our expert team is dedicated to providing personalized guidance and exceptional customer service, making your window treatment journey a delightful experience.
+                        </p>
                     </div>
                 </div>
             </div>
             <div className="our-profound-story container-fluid justify-content-center align-items-center">
                 <div className="row container-fluid w-100 h-100 d-flex justify-content-around">
-                    <div className="col-xl-7 d-flex align-items-center">
+                    <div className="col-lg-12 d-flex align-items-center">
                         <div>
-                            <h1 className='text fw-light'>Our Profound Story</h1>
-                            <p className='mt-3'>MK represents the first letters of the surnames of Datuk Wira Dato’ (Dr.) Calvin Khiu and his wife, Datin Wira Moon. Datuk Wira Dato' (Dr.) Calvin Khiu started his curtain business under the company, CK Textile, with liabilities in the year 2005. MK Curtain was named after he was married with Datin Wira Moon and he received unconditional love and support from his wife since he decided to build his career in the curtain industry.
-
-
-                                This loving couple runs the business together with their hearts and souls. The company logo of two swans facing each other, forming a heart shape. The bigger swan represents Datuk Wira Dato' (Dr.) Calvin Khiu and the smaller swan with crown represents Datin Wira Moon, symbolizes their love relationship and life commitment for one and another. Their passions, dedications and commitments have made them where they are today and their vision is to make MK Curtain an international brand.</p>
+                            <h1 className='text fw-bold'>OUR CUSTOMERS</h1>
+                            <p className='mt-3'>
+                            Our commitment to quality and customer satisfaction has earned us the trust of esteemed clients such as New Hup Lee Coach Manufacturing Sdn Bhd, Universiti Malaysia Terengganu, Universiti Teknologi Malaysia, Tentera Darat, Sin Hock Leong Coach Works (SHLCOACH), and Truckquip Sdn. Bhd. These partnerships underscore our ability to deliver exceptional window treatment solutions for diverse needs and environments.
+                            </p>
                         </div>
-                    </div>
-                    <div className="col-xl-4 d-flex justify-content-center align-items-center">
-                        <img src={ourprofoundstoryimage} alt="" className='our-profound-story-image' />
                     </div>
                 </div>
 
