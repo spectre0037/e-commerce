@@ -18,11 +18,19 @@ const Footer = () => {
                     </div>
                     <div className="col-xl-2 ">
                         <h3 className='text text-center'>INFORMATION</h3>
-                        <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus totam quae reprehenderit vel illo aperiam dolorum! Blanditiis accusantium nisi cum!</p>
+                        <p className='text-center'>
+                            <span>Curtains</span><hr className='p-0 m-1' />
+                            <span>Blinds</span><hr className='p-0 m-1' />
+                            <span>Wallpapers</span><hr className='p-0 m-1' />
+                            <span>Beddings</span><hr className='p-0 m-1' />
+                            <span>Accessories</span><hr className='p-0 m-1' />
+                        </p>
                     </div>
                     <div className="col-xl-3 ">
                         <h3 className='text text-center'>CONNECT <br />WITH US</h3>
-                        <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus totam quae reprehenderit vel illo aperiam dolorum! Blanditiis accusantium nisi cum!</p>
+                        <p className='text-center'>
+                            <span>Facebook : </span><span><a href="https://www.facebook.com/azutamacurtain?_rdc=1&_rdr#">visit page</a></span>
+                        </p>
                     </div>
                     <div className="col-xl-2 d-flex flex-column justify-content-center">
                         <img className='p-0 m-0 footer-logo' src={logo} alt="" height={200}/>
