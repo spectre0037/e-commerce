@@ -18,12 +18,12 @@ const Footer = () => {
                     </div>
                     <div className="col-xl-2 ">
                         <h3 className='text '>INFORMATION</h3>
-                        <p className=''>
+                        <div className=''>
                             <p>CURTAINS</p>
                             <p>Blinds</p>
                             <p>Wallpapers</p>
                             <p>Bedding</p>
-                        </p>
+                        </div>
                     </div>
                     <div className="col-xl-4 ">
                         <h3 className='text'>CONNECT WITH US</h3>
