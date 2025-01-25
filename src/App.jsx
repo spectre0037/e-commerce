@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Remove duplicate/conflicting imports
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './Components/LandingPage/LandingPage';
 import AboutUs from './PAGE/AboutUs/AboutUs';
 import Curtains from './PAGE/Curtains/Curtains';
@@ -12,10 +12,9 @@ import Accessories from './PAGE/Accessories/Accessories';
 import Shop from './PAGE/Shop/Shop';
 import OurServices from './PAGE/AboutUs/OurServices';
 
-
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/e-commerce">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about-us" element={<AboutUs />} />
